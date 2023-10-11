@@ -21,7 +21,6 @@ body {
 
 ul {
     list-style: none;
-    display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
@@ -32,9 +31,9 @@ li {
     padding: 5px;
     border: 2px solid #8133ff;
     border-radius: 5px;
-    width: fit-content;
     margin: 20px;
     width: 150px;
+    cursor: pointer;
 }
 
 img {
